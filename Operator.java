@@ -5,12 +5,12 @@ public class Operator {
         int a = 7;
         int b = 10;
 
-        //Arthematic Operator
+        //Arithmetic Operator
         System.out.println("The value of a is "+a+" and b is "+b );
         int c = a+b;
         int d = a-b;
         int e = a*b;
-        float f = a/b; //Ans will be 0.0 bcz a and b is in int data type.So System will automatically converted into float.Rhz is called implicit conversion
+        float f = a/b; //Ans will be 0.0 bcz a and b are in int data type.So System will automatically convert into float.thz is called implicit conversion
         float F = (float) a/ (float) b; // Now the ans will be 0.7,bcz we converted tht int into float.Thz is called explicit
         int g = a%b;
         System.out.println("ADDITION : "+c);
@@ -20,7 +20,7 @@ public class Operator {
         System.out.println("DIVISION :(explicit) "+F);
         System.out.println("MODULOUS : "+g);
 
-        //UNARY OPERTOR
+        //UNARY OPERATOR
         System.out.println("The value of a is "+a+" and b is "+b );
         System.out.println("a++ ="+a++);// Thz will first print the value and do increment
         System.out.println("a = "+a);
